@@ -15,7 +15,7 @@
             android:id="@+id/imgUser"
             android:layout_width="150dp"
             android:layout_height="141dp"
-            app:srcCompat="@drawable/emthree" />
+            app:srcCompat="@drawable/man" />
         <TextView
             android:layout_marginLeft="40dp"
             android:layout_marginTop="150dp"
@@ -36,7 +36,7 @@
             android:id="@+id/imgSach"
             android:layout_width="150dp"
             android:layout_height="141dp"
-            app:srcCompat="@drawable/bookicon" />
+            app:srcCompat="@drawable/boook" />
         <TextView
             android:layout_marginLeft="65dp"
             android:layout_marginTop="150dp"
@@ -57,7 +57,7 @@
             android:id="@+id/imgTheLoai"
             android:layout_width="150dp"
             android:layout_height="141dp"
-            app:srcCompat="@drawable/cateicon" />
+            app:srcCompat="@drawable/theloaiiii" />
         <TextView
             android:layout_marginLeft="50dp"
             android:layout_marginTop="150dp"
@@ -78,7 +78,7 @@
             android:id="@+id/imgHoaDon"
             android:layout_width="150dp"
             android:layout_height="141dp"
-            app:srcCompat="@drawable/hdicon" />
+            app:srcCompat="@drawable/moneybag" />
         <TextView
             android:layout_marginLeft="50dp"
             android:layout_marginTop="150dp"
