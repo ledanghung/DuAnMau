@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:layout_marginTop="3dp"
+        android:id="@+id/imgIconUser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/emone" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/edNameUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nguoi dung 1"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/edPhoneUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sdt"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/IconSuaUser"
+        android:layout_width="28dp"
+        android:layout_height="97dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/button_plus_green" />
+
+    <ImageView
+
+        android:id="@+id/IconDeleteUser"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_close" />
+
+
+</LinearLayout>

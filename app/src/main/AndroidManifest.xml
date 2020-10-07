@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookmanager_hung">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SuaSachActivity"></activity>
+        <activity android:name=".suaTheLoaiActivity" />
+        <activity android:name=".SuaNDActivity" />
+        <activity android:name=".Them_HoaDon" />
+        <activity android:name=".Screen_HoaDonActivity" />
+        <activity android:name=".Them_SachActivity" />
+        <activity android:name=".Screen_SachActivity" />
+        <activity android:name=".Them_TheLoaiActivity" />
+        <activity android:name=".Screen_TheLoai" />
+        <activity android:name=".ChangePass" />
+        <activity android:name=".User" />
+        <activity android:name=".Them_UserActivity" />
+        <activity android:name=".ScreenMainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

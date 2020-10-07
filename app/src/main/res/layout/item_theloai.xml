@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/imgIconTL"
+        android:layout_width="117dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="3dp"
+        app:srcCompat="@drawable/cateicon" />
+
+    <LinearLayout
+        android:layout_width="196dp"
+        android:layout_height="134dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/edIDTL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mo Ta"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/edTenTL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vi tri"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/edVitri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vi tri"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <ImageView
+
+        android:id="@+id/IconDeleteTL"
+        android:layout_width="67dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_close" />
+
+
+</LinearLayout>

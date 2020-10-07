@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/frameUser"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgUser"
+            android:layout_width="150dp"
+            android:layout_height="141dp"
+            app:srcCompat="@drawable/emthree" />
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Người dùng"/>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/FrameSach"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgSach"
+            android:layout_width="150dp"
+            android:layout_height="141dp"
+            app:srcCompat="@drawable/bookicon" />
+        <TextView
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sách"/>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/FrameTheLoai"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="230dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgTheLoai"
+            android:layout_width="150dp"
+            android:layout_height="141dp"
+            app:srcCompat="@drawable/cateicon" />
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thể Loại"/>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/FrameHoadon"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="230dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgHoaDon"
+            android:layout_width="150dp"
+            android:layout_height="141dp"
+            app:srcCompat="@drawable/hdicon" />
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hóa Đơn"/>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgSachbanchay"
+            android:layout_width="150dp"
+            android:layout_height="141dp"
+            app:srcCompat="@drawable/money_icon" />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sách bạn chạy nhất"/>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="230dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgThongKe"
+            android:layout_width="150dp"
+            android:layout_height="141dp"
+            app:srcCompat="@drawable/thongke" />
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thống kê"/>
+
+    </FrameLayout>
+</FrameLayout>
